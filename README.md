@@ -1,6 +1,6 @@
 # Quiz sobre a África
 
-Um quiz simples sobre a África, com 14 perguntas, desenvolvido em HTML e JavaScript.
+Um quiz simples sobre a África, com 10 perguntas, desenvolvido em HTML e JavaScript.
 
 ![Quiz sobre a África](quiz_screenshot.png)
 
