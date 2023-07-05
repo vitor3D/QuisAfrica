@@ -75,7 +75,7 @@
       }
       
       a.background-button {
-        background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/323909/yellow-shadow.png);
+        background-image: url(.//assets/yellow-shadow.png);
       
         &:after {
           content: attr(title);
@@ -85,7 +85,7 @@
           top: 0;
           left: 0;
           display: block;
-          background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/323909/yellow-top.png);
+          background-image: url(.//assets/yellow-top.png);
           transition: all 0.3s;
           display: flex;
           justify-content: center;
