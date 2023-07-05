@@ -5,33 +5,76 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
   <h1>Quiz sobre a África</h1>
+  <img src=".//assets/leao.GIF" alt="" id="leao"> <img src=".//assets/elefante1.PNG" alt="" id="leao">
 
   <div id="quiz">
     <h2 id="question"></h2>
     <ul id="choices"></ul>
   </div>
-
+  <img src=".//assets/onca.GIF" alt="" id="onca"><br>
   <div class="button-wrapper">
 
     <a class="background-button" href="#" title="Confirma" onclick="startQuiz()"></a>
   </div>
 
+<img src=".//assets/girafa.GIF" alt="" id="girafa">
+<img src=".//assets/elefante2.PNG" alt="" id="elefante">
 
   <script>
     // Defina as perguntas, respostas e opções
     const questions = [
       {
-        question: "Qual é o maior deserto da África?",
-        choices: ["Deserto do Saara", "Deserto de Kalahari", "Deserto de Namíbia", "Deserto de Núbia"],
+        question: "1. What is the official language of South Africa?",
+        choices: ["a) English", "b) Afrikaans", "c) Zulu", "d) Xhosa"],
         correctAnswer: 0
       },
       {
-        question: "Qual é o rio mais longo da África?",
-        choices: ["Rio Congo", "Rio Zambeze", "Rio Nilo", "Rio Orange"],
-        correctAnswer: 2
+        question: "2. Which traditional music style is popular in South Africa, characterized by vocal harmonies and rhythmic percussion?",
+        choices: ["a) Reggae", "b) Highlife", "c) Salsa", "d) Isicathamiya"],
+        correctAnswer: 3
       },
-      // Adicione as outras perguntas aqui...
+      {
+        question: "What is the national sport of South Africa?",
+        choices: ["Rugby", "Cricket", "Soccer", "Tennis"],
+        correctAnswer: 0
+      },
+      {
+        question: "Which famous wildlife reserve in South Africa is known for its conservation efforts and the 'Big Five' animals?",
+        choices: ["Serengeti National Park", "Kruger National Park", "Okavango Delta", "Etosha National Park"],
+        correctAnswer: 1
+      },
+      {
+        question: "What is a traditional South African dish made of spiced minced meat cooked on an open flame?",
+        choices: ["Braai", "Biltong", "Bunny chow", "Bobotie"],
+        correctAnswer: 0
+      },
+      {
+        question: "Which cultural event in South Africa celebrates the diverse heritage of the country through music, dance, and vibrant costumes?",
+        choices: ["Cape Town Jazz Festival", "National Arts Festival", "Soweto Wine Festival", "Cape Town Carnival"],
+        correctAnswer: 3
+      },
+      {
+        question: "Which ethnic group is the largest in South Africa?",
+        choices: ["Zulu", "Xhosa", "Afrikaans", "Sotho"],
+        correctAnswer: 0
+      },
+      {
+        question: "Which traditional music style from South Africa features colorful costumes, energetic dance moves, and vibrant rhythms?",
+        choices: ["Maskandi", "Kwaito", "Ghoema", "Pantsula"],
+        correctAnswer: 3
+      },
+      {
+        question: "Which continent is South Africa located in?",
+        choices: ["America", "Africa", "Europe", "Asia"],
+        correctAnswer: 1
+      },
+      {
+        question: "What is the most well-known animal in South Africa?",
+        choices: ["Lion", "Elephant", "Giraffe", "Rhino"],
+        correctAnswer: 0
+      },
     ];
 
     let currentQuestion = 0;

@@ -109,3 +109,29 @@
         -webkit-filter: hue-rotate(324deg);
     filter: hue-rotate(324deg);
   }
+  #girafa{
+    width: 300px;
+    height: 300px;
+    float: right;
+    filter: drop-shadow(5px 5px 10px #0000006c);
+  }
+  #elefante{
+    width: 300px;
+    height: 300px;
+    float: left;
+    filter: drop-shadow(5px 5px 10px #0000006c);
+  }
+  #leao{
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    filter: drop-shadow(5px 5px 10px #0000006c);
+ 
+  }
+  #onca{
+    width: 200px;
+    height: 200px;
+    margin-left: 35%;
+    filter: drop-shadow(5px 5px 10px #0000006c);
+ 
+  }
